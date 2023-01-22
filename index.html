@@ -59,8 +59,8 @@
                          <i class="fas fa-dove"></i>
                          <h1>Explore what's happening in the world</h1>
                          <h4>Join Twitter today</h4>
-                         <button type="button" class="sign-up">Sign Up</button>
-                         <button type="button" class="log-in">Log In</button>
+                         <button type="button" class="sign-up main-btn">Sign Up</button>
+                         <button type="button" class="log-in main-btn">Log In</button>
                     </div>
                </div>
           </div>
@@ -103,8 +103,8 @@
                <div class="login-content">
                     <h2>Log In To Twitter</h2>
                     <form class="login-form">
-                         <input type="text" placeholder="Phone , Email, or Username">
-                         <input type="password" placeholder="Password">
+                         <input type="text" class="login-user-info" placeholder="Phone , Email, or Username">
+                         <input type="password" class="login-password" placeholder="Password">
 
                          <div>
                               <button type="button" class="login-form-btn">
@@ -122,8 +122,17 @@
                     <p>New To Twitter ? <a href="#">Sign Up Now</a> </p>
                     <p>Already using twitter via text message? <a href="#">Activate your account </a> </p>
                </footer>
-
           </div>
+
+          <!-- Login Modal -->
+
+          <div class="login-modal">
+               <i class="fas fa-times"></i>
+               <p>The username and password you entered did not match our records. Please double check and try again</p>
+          </div>
+
+          <!-- End of LogIn Modal -->
+
      </section>
 
      <!-- End of Login Page -->
@@ -132,7 +141,7 @@
 
      <section class="feed-page">
 
-          <nav class="feeds-nav">
+          <nav class="feeds-nav dark-mode-1">
                <div class="icons">
                     <a href="#" class="active"> <i class="fas fa-home"></i> </a>
                     <a href="#"> <i class="fas fa-hashtag"></i> </a>
@@ -141,47 +150,49 @@
                </div>
                <div class="search-bar">
                     <i class="fas fa-search"></i>
-                    <input type="text" placeholder="Search Twitter" class="search-bar-input">
+                    <input type="text" placeholder="Search Twitter" class="search-bar-input dark-mode-2 light-text border">
                </div>
                <div class="user">
                     <div class="user-image-wrapper">
                          <img src="./images/user2.jpg" alt="">
                     </div>
-                    <a href="#" class="user-link">Abhirup Dey</a>
+                    <a href="#" class="user-link light-text">Abhirup Dey</a>
                     <i class="fas fa-chevron-down"></i>
                </div>
           </nav>
 
-          <div class="feeds-content">
-               <div class="feeds-header">
-                    <div class="header-top">
-                         <h4>Home</h4>
+          <div class="feeds-content dark-mode-2">
+               <div class="feeds-header dark-mode-1">
+                    <div class="header-top border">
+                         <h4 class="light-text">Home</h4>
                          <i class="far fa-star"></i>
                     </div>
 
-                    <div class="header-post">
+                    <div class="header-post dark-mode-1 border">
                          <div class="header-img-wrapper">
                               <img src="./images/user2.jpg" alt="">
                          </div>
-                         <input type="text" placeholder="What's happening?">
+                         <input type="text" placeholder="What's happening?" class="dark-mode-2 light-text border">
                          <i class="far fa-image"></i>
                          <i class="fas fa-camera"></i>
                          <i class="far fa-chart-bar"></i>
                     </div>
                </div>
 
-               <div class="posts">
-                    <div class="post">
+               <div class="posts dark-mode-1">
+                    <div class="post border">
                          <div class="user-avatar">
                               <img src="./images/user2.jpg" alt="">
                          </div>
                          <div class="post-content">
-                              <div class="post-user-info">
+                              <div class="post-user-info light-text">
                                    <h4>Helen Brownie</h4>
                                    <i class="fas fa-check-circle"></i>
                                    <span>@helenbrowni . 15m</span>
                               </div>
-                              <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia libero!</p>
+                              <p class="post-text light-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                   temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia
+                                   libero!</p>
                               <div class="post-img">
                                    <img src="./images/post-img-1.jpg" alt="">
                               </div>
@@ -194,17 +205,19 @@
                          </div>
                     </div>
 
-                    <div class="post">
+                    <div class="post border">
                          <div class="user-avatar">
                               <img src="./images/user2.jpg" alt="">
                          </div>
                          <div class="post-content">
-                              <div class="post-user-info">
+                              <div class="post-user-info light-text">
                                    <h4>Helen Brownie</h4>
                                    <i class="fas fa-check-circle"></i>
                                    <span>@helenbrowni . 15m</span>
                               </div>
-                              <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia libero!</p>
+                              <p class="post-text light-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                   temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia
+                                   libero!</p>
                               <div class="post-img">
                                    <img src="./images/post-img-1.jpg" alt="">
                               </div>
@@ -217,17 +230,19 @@
                          </div>
                     </div>
 
-                    <div class="post">
+                    <div class="post border">
                          <div class="user-avatar">
                               <img src="./images/user3.jpg" alt="">
                          </div>
                          <div class="post-content">
-                              <div class="post-user-info">
+                              <div class="post-user-info light-text">
                                    <h4>John Bar . 20m</h4>
                                    <i class="fas fa-check-circle"></i>
                                    <span>@johnybar . 45m</span>
                               </div>
-                              <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia libero!</p>
+                              <p class="post-text light-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                   temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia
+                                   libero!</p>
                               <div class="post-img">
                                    <img src="./images/post-img-2.jpg" alt="">
                               </div>
@@ -240,17 +255,19 @@
                          </div>
                     </div>
 
-                    <div class="post">
+                    <div class="post border">
                          <div class="user-avatar">
                               <img src="./images/user4.jpg" alt="">
                          </div>
                          <div class="post-content">
-                              <div class="post-user-info">
+                              <div class="post-user-info light-text">
                                    <h4>Elvis Ishan</h4>
                                    <i class="fas fa-check-circle"></i>
                                    <span>@lvisiahan . 50m</span>
                               </div>
-                              <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia libero!</p>
+                              <p class="post-text light-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                   temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia
+                                   libero!</p>
                               <div class="post-img">
                                    <img src="./images/post-img-5.jpg" alt="">
                               </div>
@@ -263,17 +280,19 @@
                          </div>
                     </div>
 
-                    <div class="post">
+                    <div class="post border">
                          <div class="user-avatar">
                               <img src="./images/user6.jpg" alt="">
                          </div>
                          <div class="post-content">
-                              <div class="post-user-info">
+                              <div class="post-user-info light-text">
                                    <h4>Nick Johnson</h4>
                                    <i class="fas fa-check-circle"></i>
                                    <span>@nickyjohnson . 1h 55m</span>
                               </div>
-                              <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia libero!</p>
+                              <p class="post-text light-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                   temporibus corporis numquam dolore, nisi officia perspiciatis eos accusamus mollitia
+                                   libero!</p>
                               <div class="post-img">
                                    <img src="./images/post-img-4.jpg" alt="">
                               </div>
@@ -287,44 +306,44 @@
                     </div>
                </div>
 
-               <div class="follow">
-                    <h3 class="follow-heading">Who to follow</h3>
-                    <div class="follow-user">
+               <div class="follow dark-mode-1">
+                    <h3 class="follow-heading light-text border">Who to follow</h3>
+                    <div class="follow-user border">
                          <div class="follow-user-img">
                               <img src="./images/user5.jpg" alt="">
                          </div>
-                         <div class="follow-user-info">
+                         <div class="follow-user-info light-text">
                               <h4>Anna Smith</h4>
                               <p>@annasmith</p>
                          </div>
-                         <button type="button" class="follow-btn">Follow</button>
+                         <button type="button" class="follow-btn dark-mode-2">Follow</button>
                     </div>
-                    <div class="follow-user">
+                    <div class="follow-user border">
                          <div class="follow-user-img">
                               <img src="./images/user2.jpg" alt="">
                          </div>
-                         <div class="follow-user-info">
+                         <div class="follow-user-info light-text">
                               <h4>Mike Swann</h4>
                               <p>@gsmith</p>
                          </div>
-                         <button type="button" class="follow-btn">Follow</button>
+                         <button type="button" class="follow-btn dark-mode-2">Follow</button>
                     </div>
-                    <div class="follow-user">
+                    <div class="follow-user border">
                          <div class="follow-user-img">
                               <img src="./images/user4.jpg" alt="">
                          </div>
-                         <div class="follow-user-info">
+                         <div class="follow-user-info light-text">
                               <h4>Steven Smith</h4>
                               <p>@smithsmith</p>
                          </div>
-                         <button type="button" class="follow-btn">Follow</button>
+                         <button type="button" class="follow-btn dark-mode-2">Follow</button>
                     </div>
 
                     <div class="follow-link">
                          <a href="#">Show more</a>
                     </div>
 
-                    <footer class="follow-footer">
+                    <footer class="follow-footer dark-mode-2">
                          <ul>
                               <li><a href="#">Terms</a></li>
                               <li><a href="#">Privacy Policy</a></li>
@@ -341,6 +360,86 @@
                <i class="fas fa-feather-alt"></i> Post
           </button>
 
+          <!-- Post Modal -->
+          <div class="modal-wrapper">
+               <div class="modal dark-mode-1">
+                    <div class="modal-header border">
+                         <i class="fas fa-times"></i>
+                         <button type="button">Post</button>
+                    </div>
+                    <div class="modal-body">
+                         <div class="modal-img">
+                              <img src="./images/user1.jpg" alt="">
+                         </div>
+                         <input type="text" placeholder="What's happening ?" class="modal-input dark-mode-2 light-text border">
+                         <i class="far fa-smile"></i>
+                    </div>
+                    <div class="modal-footer">
+                         <div class="modal-icons">
+                              <i class="far fa-image"></i>
+                              <i class="fas fa-camera"></i>
+                              <i class="far fa-chart-bar"></i>
+                              <span>+</span>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <!-- SideBar -->
+
+          <div class="sidebar-wrapper">
+               <div class="sidebar dark-mode-1">
+                    <div class="sidebar-header border">
+                         <h2 class="light-text">Account Info</h2>
+                         <i class="fas fa-times"></i>
+                    </div>
+                    <div class="sidebar-user">
+                         <div class="sidebar-user-img">
+                              <img src="./images/user2.jpg" alt="">
+                         </div>
+                         <span>+</span>
+                    </div>
+                    <div class="sidebar-user-info light-text">
+                         <h4>Abhirup Dey</h4>
+                         <p>@abhirup01</p>
+                    </div>
+                    <div class="following light-text">
+                         <p class="following-paragraph">
+                              <span>811</span> Following
+                         </p>
+                         <p class="following-paragraph">
+                              <span>8.8K</span> Followers
+                         </p>
+                    </div>
+                    <div class="sidebar-list-1 border">
+                         <ul>
+                              <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
+                              <li><a href="#"><i class="far fa-list-alt"></i>Lists</a></li>
+                              <li><a href="#"><i class="fab fa-adversal"></i>Ads</a></li>
+                              <li><a href="#"><i class="fas fa-chart-line"></i>Analytics</a></li>
+                         </ul>
+                    </div>
+                    <div class="sidebar-list-2">
+                         <ul>
+                              <li><a href="#">Settings and Privacy</a></li>
+                              <li><a href="#">Help Center</a></li>
+                              <li><a href="#">Log Out</a></li>
+                         </ul>
+                    </div>
+
+                    <!-- Dark Mode -->
+                    <div class="dark-mode">
+                         <p>Dark Mode</p>
+                         <div class="toggle">
+                              <div class="circle"></div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+
+          <!-- End od sidebar -->
+
      </section>
 
      <!--End of News-Feed Page -->
@@ -350,14 +449,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-<!-- Any hoe or by hook or crook I want to get get hired -->
